@@ -1,0 +1,22 @@
+body{
+    overflow-x:hidden;
+}
+
+
+#barra{
+      
+    background-color: #645399;
+    
+}
+
+#menu{
+font-size: 18px;
+
+}
+#menu a{
+    color:#645399;
+    
+}
+#menu a:hover{
+    color:blueviolet;
+}
