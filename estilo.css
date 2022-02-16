@@ -9,6 +9,17 @@ body{
     
 }
 
+#servicios{
+    background-color: rgba(100, 83, 153, 1);
+
+    padding: 10px;
+    margin: 10px;
+}
+#servicios h3,p{
+    color:#ffffff;
+    font-weight:bold;
+}
+
 #menu{
 font-size: 18px;
 font-weight:bold;
