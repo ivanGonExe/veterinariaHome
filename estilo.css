@@ -11,29 +11,54 @@ body{
 
 #menu{
 font-size: 18px;
+font-weight:bold;
 
 }
 #menu a{
     color:#645399;
-    border-radius:10px;
-    padding:10px;
-    box-shadow:0px 1px 4px rgb(0,0,0,0.2) inset;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0px 0px 2px rgb(0,0,0,0.2) inset;
+    margin:0px;
    
     
 }
 #menu a:hover{
-    color:blueviolet;
-    background-color: rgb(0,0,0,0.1);
+    color:#ffffff;
+    background-color: rgba(100, 83, 153, 1);
 }
 
 #menu img{
-padding-right:10px;
-padding-bottom:10px;
+padding-right:5px;
+padding-bottom:5px;
 }
 .carousel-inner
 {
     max-height:800px;
 }
+
+.titulo{
+ color:#645399;
+ font-weight: bold;
+}
 #intro{
-    background-color: #645399;
+    font-size: 30px;
+}
+
+@media (min-width: 1000px)
+{
+   
+    #menu a{
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    }
+
+}
+@media (max-width:800px)
+{
+    #intro{
+        font-size: 20px !important;
+    }
 }
