@@ -67,15 +67,15 @@ padding-bottom:5px;
     }
 
 }
-@media (max-width:800px)
+@media (max-width:900px)
 {
     #intro{
-        font-size: 22px !important;
+        font-size: 18px !important;
         text-align:center;
     }
     .titulo{
         
-            font-size: 22px !important;
+            font-size: 18px !important;
         
     }
 }
