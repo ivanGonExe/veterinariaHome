@@ -42,6 +42,7 @@ font-weight:bold;
 #menu img{
 padding-right:5px;
 padding-bottom:5px;
+
 }
 .carousel-inner
 {
@@ -53,7 +54,7 @@ padding-bottom:5px;
  font-weight: bold;
 }
 #intro{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 @media (min-width: 1000px)
@@ -77,5 +78,12 @@ padding-bottom:5px;
         
             font-size: 18px !important;
         
+    }
+    .row{
+        width:100% !important;
+        margin: auto;
+        padding-right: 30px;
+        justify-items: center;
+        justify-content: center;
     }
 }
