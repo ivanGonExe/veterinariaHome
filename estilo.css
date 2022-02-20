@@ -12,12 +12,14 @@ body{
 #servicios{
     background-color: rgba(100, 83, 153, 1);
 
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 #servicios h3,p{
     color:#ffffff;
     font-weight:bold;
+
+  
 }
 
 #menu{
@@ -43,6 +45,7 @@ font-weight:bold;
 padding-right:5px;
 padding-bottom:5px;
 
+
 }
 .carousel-inner
 {
@@ -56,7 +59,18 @@ padding-bottom:5px;
 #intro{
     font-size: 23px;
 }
-
+.formulario {
+    background-color:#645399;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:10px;
+ 
+    
+}
+.botonEnviar{
+color:black;
+}
 @media (min-width: 1000px)
 {
    
@@ -64,7 +78,7 @@ padding-bottom:5px;
     margin: 30px;
     padding-left: 30px;
     padding-right: 30px;
-
+   
     }
 
 }
@@ -85,5 +99,16 @@ padding-bottom:5px;
         padding-top:20px;
         padding-bottom:20px;
         
+    }
+    #menu img{
+        padding-bottom:20px !important;
+   
+        
+        }
+    #formulario{
+        width:100% !important;
+        height:75%;
+        text-align:center;
+        padding:30px;
     }
 }
