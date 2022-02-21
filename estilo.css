@@ -106,7 +106,10 @@ background-image: url('./img_veterinaria/alimentos.png');
     font-weight:bold;
 
 }
-
+.relleno{
+    background-color:#645399;
+    color:#645399;
+}
 
 /*Adaptación de pantalla media query */ 
 
