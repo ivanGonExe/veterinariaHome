@@ -149,4 +149,10 @@ background-image: url('./img_veterinaria/alimentos.png');
        
         }
     
+     .parrallax{
+    background: #fff fixed no-repeat auto auto;
+    background-size:cover;
+    
+    }
+    
 }
