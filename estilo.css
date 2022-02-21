@@ -11,9 +11,8 @@ body{
 
 #servicios{
     background-color: rgba(100, 83, 153, 1);
-
     padding: 5px;
-    margin: 5px;
+    margin: 1.5px;
 }
 #servicios h3,p{
     color:#ffffff;
@@ -23,7 +22,7 @@ body{
 }
 
 #menu{
-font-size: 18px;
+font-size: 15px;
 font-weight:bold;
 
 }
@@ -47,20 +46,28 @@ font-weight:bold;
 #menu img{
 padding-right:5px;
 padding-bottom:5px;
-
-
 }
 .carousel-inner
 {
     max-height:800px;
+  
+}
+.carousel-inner h5{
+    background-color: rgba(100, 83, 153, 0.5);
+    color:#ffffff;
+    border-radius: 40px;
+    padding:5px;
+    text-align:center;
+    font-size: 25px;
 }
 
 .titulo{
  color:#645399;
  font-weight: bold;
+ font-size: 25px;
 }
 #intro{
-    font-size: 23px;
+    font-size: 20px;
 }
 .formulario {
     background-color:#645399;
@@ -87,6 +94,8 @@ padding: 10px;
 background: #fff fixed no-repeat 50% 50%;
 background-size:cover;
 
+
+
 }
 
 #seccion{
@@ -102,14 +111,27 @@ background-image: url('./img_veterinaria/alimentos.png');
     color:#ffffff;
     background-color:#645399;
     text-align:center;
-    font-size:18px;
-    font-weight:bold;
+    font-size: 22px;
+    letter-spacing: 0.5pt;
+    font-weight: bold;
 
 }
 .relleno{
     background-color:#645399;
     color:#645399;
 }
+
+.footer{
+
+    background-color:#645399;
+    
+
+}
+.footer p{
+    color:#000000;
+}
+
+
 
 /*Adaptación de pantalla media query */ 
 
@@ -149,10 +171,23 @@ background-image: url('./img_veterinaria/alimentos.png');
        
         }
     
-     .parrallax{
-    background: #fff fixed no-repeat auto auto;
-    background-size:cover;
+   
+    #seccion h1{
+
+        color:#ffffff !important;
+        background-color:#645399;
+        text-align:center;
+        font-family: 'Anton', sans-serif;
+        font-size: 18px;
     
     }
+    .footer{
+        text-align:center !important;
+        align-items: center;
+        align-content: center;
+     }
+    }
+   
+    
     
 }
