@@ -17,8 +17,7 @@ body{
 #servicios h3,p{
     color:#ffffff;
     font-weight:bold;
-
-  
+    
 }
 
 #menu{
@@ -53,12 +52,14 @@ padding-bottom:5px;
   
 }
 .carousel-inner h5{
-    background-color: rgba(100, 83, 153, 0.5);
+    background-color: rgba(100, 83, 153, 0.7);
     color:#ffffff;
     border-radius: 40px;
-    padding:5px;
+    padding:10px;
+    margin: 1px;
     text-align:center;
     font-size: 25px;
+    display: inline;
 }
 
 .titulo{
@@ -91,7 +92,7 @@ padding: 10px;
 
 
 .parrallax{
-background: #fff fixed no-repeat 50% 50%;
+background:fixed no-repeat 80% 80%;
 background-size:cover;
 
 
@@ -113,9 +114,13 @@ background-image: url('./mascotas.jpg');
     font-size: 22px;
     letter-spacing: 0.5pt;
     font-weight: bold;
-    padding-top: 20%;
-    text-shadow: white 0.1em 0.1em 0.2em;
+   text-shadow: white 0.1em 0.1em 0.2em; 
+   padding-top:100px;
+  
+  
+    
 }
+
 
 
 
@@ -128,9 +133,23 @@ background-image: url('./mascotas.jpg');
 .footer p{
     color:#ffffff;
     font-weight: bold;
+
+}
+.navegadorFooter a{
+color:#ffffff;
+font-weight: bold;
+}
+.navegadorFooter a:hover{
+  color:violet;
+}
+#mapa{
+    color:#ffffff;  
 }
 
-
+#mapa a:hover{
+    color:violet;
+   
+}
 
 /*Adaptación de pantalla media query */ 
 
