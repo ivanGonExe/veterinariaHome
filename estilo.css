@@ -109,12 +109,12 @@ background-image: url('./mascotas.jpg');
 }
 #seccion h1{
 
-    color:#ffffff;
+    color:#000000;
     text-align:center;
     font-size: 22px;
     letter-spacing: 0.5pt;
     font-weight: bold;
-   text-shadow: white 0.1em 0.1em 0.2em; 
+   text-shadow: black.1em 0.1em 0.2em; 
    padding-top:100px;
   
   
@@ -138,16 +138,19 @@ background-image: url('./mascotas.jpg');
 .navegadorFooter a{
 color:#ffffff;
  font-weight: bold;
+
 }
 .navegadorFooter a:hover{
   color: rgba(0, 0, 0, 0.5);
 }
 #mapa{
     color:#ffffff;  
+    text-decoration: none;
 }
 
 #mapa a:hover{
-    color:violet;
+    color:rgba(0, 0, 0, 0.5);
+    background-color: red;
    
 }
 
